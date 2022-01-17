@@ -33,7 +33,7 @@ cd medora-health-center pip install -r requirements.txt
  ##### Setup Database  
   SetUp your database User,Password, Host then make migrate  
  ```bash 
-python manage.py makemigrations pictures 
+python manage.py makemigrations medoraapp
  ``` 
  Now Migrate  
  ```bash 
