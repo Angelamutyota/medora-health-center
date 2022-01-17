@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'medoraapp',
-    'bootstrap5'
+    'bootstrap5',
+    'crispy_forms',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'knox',
 ]
 
 MIDDLEWARE = [

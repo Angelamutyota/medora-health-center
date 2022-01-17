@@ -1,6 +1,6 @@
 from django import forms
 from django.forms import fields
-from .models import Profile, Vitals, vitals
+from .models import Profile, Vitals
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
